@@ -1,0 +1,18 @@
+@import "../../styles.scss";
+#pico-component{
+    background-color: $blue-color;
+    .container{
+        padding: 5rem 0;
+        color: #fff;
+        h1{
+            font-size: 4rem;
+            line-height: 1;
+        }
+        .description{
+            font-size: 20px;
+        }
+        svg{
+            filter: invert(100%);
+        }
+    }
+}

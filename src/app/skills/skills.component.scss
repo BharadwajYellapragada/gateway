@@ -1,0 +1,15 @@
+@import "../../styles.scss";
+#skills-component{
+    width: 100%;
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+    .container{
+        background-color: white;
+        .grid-4 {
+            grid-template-columns: repeat(8, 1fr);
+        }
+        .link{
+            text-align: center;
+        }
+    }
+}

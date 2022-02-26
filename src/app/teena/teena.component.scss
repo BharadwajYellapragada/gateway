@@ -1,0 +1,19 @@
+@import "../../styles.scss";
+#teena-component{
+    background-color: $dark-color;
+    .container{
+        text-align: right;
+        padding: 5rem 0;
+        color: #fff;
+        h1{
+            font-size: 4rem;
+            line-height: 1;
+        }
+        .description{
+            font-size: 20px;
+        }
+        svg{
+            filter: invert(100%);
+        }
+    }
+}
